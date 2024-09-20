@@ -1,22 +1,22 @@
+    import React, { Component } from "react";
+    import ReactDOM from "react-dom/client";
+    const element = <span> My name is subu</span>
+    const title = (
+        <div>
+            {element}
+    <h1 className="practice"> Hello React</h1>
+    </div>
+      );
+    const Head = () => (
+     <h1> BEAUTIFUL WORLD</h1>
+      );
+    
+    const HeadComponent = () =>(<div id="container"> 
+    {title}
+    {Head()}    
+    caling a function inside jsx 
 
-            const heading = React.createElement("div",{id:"heading"},"hello subha"
-            ,[
-                React.createElement("div",{id:"child"},[
-                    React.createElement("h1",{},"I'm subha"),
-                    React.createElement("h2",{},"I'm suha"),
-
-
-                ]),
-                React.createElement("div",{ id:"child2"},[
-                    React.createElement("h1",{},"i am sushi"),
-                    React.createElement("h2",{},"i am shital"),
-
-                ]),
-
-            ]
-            );
-            console.log(heading);//object
-            
-            const root = ReactDOM.createRoot(document.getElementById("root"));
-            root.render(heading);
-        
+        <h1 className="heading"> hello subha</h1>
+    </div>);
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<HeadComponent />)
