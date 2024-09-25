@@ -47,3 +47,6 @@ parcel documentation (to read)
  two importatnt hooks 
  1. useState() - super powerfull  state variable in react
  2. useEffect()
+ # 2 types of Routing 
+ - client side Routing 
+ - server side Routing 
