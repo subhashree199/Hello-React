@@ -50,3 +50,7 @@ parcel documentation (to read)
  # 2 types of Routing 
  - client side Routing 
  - server side Routing 
+ # Class componenet
+  when the class component is load 1st constructor load than the render
+  never update the state variable directly . 
+  componentDidMount use= API call .
